@@ -1,0 +1,225 @@
+2017-05-30 16:12:47.152 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
+2017-05-30 16:12:48.386 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr¢â version 6.5.1
+2017-05-30 16:12:48.387 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-05-30 16:12:48.387 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\solr-6.5.1
+2017-05-30 16:12:48.414 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-05-30T16:12:48.388Z
+2017-05-30 16:12:48.415 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2017-05-30 16:12:48.443 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\solr-6.5.1\server\solr
+2017-05-30 16:12:48.450 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\solr-6.5.1\server\solr\solr.xml
+2017-05-30 16:12:49.206 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-05-30 16:12:49.461 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath C:\solr-6.5.1\server\solr
+2017-05-30 16:12:49.463 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [test]
+2017-05-30 16:12:49.550 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.c.SolrResourceLoader [test] Added 51 libs to classloader, from paths: [/C:/solr-6.5.1/contrib/clustering/lib, /C:/solr-6.5.1/contrib/extraction/lib, /C:/solr-6.5.1/contrib/langid/lib, /C:/solr-6.5.1/contrib/velocity/lib, /C:/solr-6.5.1/dist]
+2017-05-30 16:12:49.608 INFO  (main) [   ] o.e.j.s.Server Started @3880ms
+2017-05-30 16:12:49.864 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.1
+2017-05-30 16:12:50.054 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.s.IndexSchema [test] Schema name=example-data-driven-schema
+2017-05-30 16:12:50.255 WARN  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.SynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+2017-05-30 16:12:50.266 WARN  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.WordDelimiterFilterFactory]. Please consult documentation how to replace it accordingly.
+2017-05-30 16:12:50.911 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-05-30 16:12:51.032 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.c.CoreContainer Creating SolrCore 'test' using configuration from instancedir C:\solr-6.5.1\server\solr\test
+2017-05-30 16:12:51.107 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-05-30 16:12:51.126 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.c.SolrCore [[test] ] Opening new SolrCore at [C:\solr-6.5.1\server\solr\test], dataDir=[C:\solr-6.5.1\server\solr\test\data\]
+2017-05-30 16:12:51.131 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@265ea9
+2017-05-30 16:12:51.273 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-05-30 16:12:51.815 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-05-30 16:12:51.815 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-05-30 16:12:51.824 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-05-30 16:12:51.824 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-05-30 16:12:51.884 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.s.SolrIndexSearcher Opening [Searcher@b39301[test] main]
+2017-05-30 16:12:51.891 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\solr-6.5.1\server\solr\test\conf
+2017-05-30 16:12:51.910 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-05-30 16:12:51.917 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-05-30 16:12:51.919 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\solr-6.5.1\server\solr\test\conf\elevate.xml
+2017-05-30 16:12:51.937 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-05-30 16:12:51.982 INFO  (searcherExecutor-7-thread-1-processing-x:test) [   x:test] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@b39301[test] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-05-30 16:12:51.982 INFO  (searcherExecutor-7-thread-1-processing-x:test) [   x:test] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-05-30 16:12:51.982 INFO  (searcherExecutor-7-thread-1-processing-x:test) [   x:test] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-05-30 16:12:51.988 INFO  (searcherExecutor-7-thread-1-processing-x:test) [   x:test] o.a.s.c.SolrCore [test] Registered new searcher Searcher@b39301[test] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-05-30 16:12:51.992 INFO  (coreLoadExecutor-6-thread-1) [   x:test] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1568838277652283392
+2017-05-30 16:12:55.794 INFO  (qtp19923290-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=1434
+2017-05-30 16:13:03.478 INFO  (qtp19923290-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=1
+2017-05-30 16:13:03.556 INFO  (qtp19923290-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=73
+2017-05-30 16:13:03.586 INFO  (qtp19923290-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=20
+2017-05-30 16:13:08.111 INFO  (qtp19923290-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:13:08.126 INFO  (qtp19923290-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={wt=json&_=1496160788101} status=0 QTime=0
+2017-05-30 16:13:08.181 INFO  (qtp19923290-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=55
+2017-05-30 16:13:13.673 INFO  (qtp19923290-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:13:13.708 INFO  (qtp19923290-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=28
+2017-05-30 16:13:13.729 INFO  (qtp19923290-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=14
+2017-05-30 16:13:17.953 INFO  (qtp19923290-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:13:17.974 INFO  (qtp19923290-20) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1496160797940} status=0 QTime=10
+2017-05-30 16:13:17.992 INFO  (qtp19923290-20) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/replication params={wt=json&command=details&_=1496160797940} status=0 QTime=7
+2017-05-30 16:13:18.004 INFO  (qtp19923290-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=37
+2017-05-30 16:13:18.007 INFO  (qtp19923290-14) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/system params={wt=json&_=1496160797940} status=0 QTime=42
+2017-05-30 16:13:18.010 INFO  (qtp19923290-16) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1496160783132&ts=1496160783132} status=503 QTime=3
+2017-05-30 16:13:25.284 INFO  (qtp19923290-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:13:25.326 INFO  (qtp19923290-19) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1496160797940} status=0 QTime=13
+2017-05-30 16:13:25.332 INFO  (qtp19923290-17) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/config params={wt=json&_=1496160805254} status=0 QTime=17
+2017-05-30 16:13:25.333 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=29
+2017-05-30 16:13:25.413 INFO  (qtp19923290-19) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1496160797940} status=0 QTime=0
+2017-05-30 16:13:45.742 INFO  (qtp19923290-18) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1496160797940} status=0 QTime=4
+2017-05-30 16:13:45.760 INFO  (qtp19923290-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:13:45.763 INFO  (qtp19923290-11) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/config params={wt=json&_=1496160805254} status=0 QTime=0
+2017-05-30 16:13:45.786 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=26
+2017-05-30 16:13:45.825 INFO  (qtp19923290-13) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1496160797940} status=0 QTime=1
+2017-05-30 16:20:05.126 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:20:05.223 INFO  (qtp19923290-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=85
+2017-05-30 16:20:14.642 INFO  (qtp19923290-11) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1496161205060} hits=0 status=0 QTime=42
+2017-05-30 16:20:22.035 INFO  (qtp19923290-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:20:22.068 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=25
+2017-05-30 16:20:22.068 INFO  (qtp19923290-19) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1496160797940} status=0 QTime=2
+2017-05-30 16:20:22.078 INFO  (qtp19923290-14) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/config params={wt=json&_=1496160805254} status=0 QTime=0
+2017-05-30 16:20:22.153 INFO  (qtp19923290-16) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1496160797940} status=0 QTime=0
+2017-05-30 16:20:26.505 INFO  (qtp19923290-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=1
+2017-05-30 16:20:26.532 INFO  (qtp19923290-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=17
+2017-05-30 16:20:26.534 INFO  (qtp19923290-19) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/config params={wt=json&_=1496160805254} status=0 QTime=0
+2017-05-30 16:20:26.544 INFO  (qtp19923290-13) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1496160797940} status=0 QTime=1
+2017-05-30 16:20:26.587 INFO  (qtp19923290-16) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1496160797940} status=0 QTime=0
+2017-05-30 16:21:06.313 INFO  (qtp19923290-20) [   x:test] o.a.s.u.p.LogUpdateProcessorFactory [test]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[01644f2b-eecf-4362-82b3-4c3bdd6107cb (1568838795913068544)]} 0 107
+2017-05-30 16:21:06.339 INFO  (qtp19923290-16) [   x:test] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-05-30 16:21:06.339 INFO  (qtp19923290-16) [   x:test] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@12d8198
+2017-05-30 16:21:06.478 INFO  (qtp19923290-16) [   x:test] o.a.s.s.SolrIndexSearcher Opening [Searcher@208768[test] main]
+2017-05-30 16:21:06.479 INFO  (qtp19923290-16) [   x:test] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-05-30 16:21:06.480 INFO  (searcherExecutor-7-thread-1-processing-x:test) [   x:test] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@208768[test] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.1):C1)))}
+2017-05-30 16:21:06.480 INFO  (searcherExecutor-7-thread-1-processing-x:test) [   x:test] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-05-30 16:21:06.482 INFO  (searcherExecutor-7-thread-1-processing-x:test) [   x:test] o.a.s.c.SolrCore [test] Registered new searcher Searcher@208768[test] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.1):C1)))}
+2017-05-30 16:21:06.482 INFO  (qtp19923290-16) [   x:test] o.a.s.u.p.LogUpdateProcessorFactory [test]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 144
+2017-05-30 16:21:31.234 INFO  (qtp19923290-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:21:31.264 INFO  (qtp19923290-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=26
+2017-05-30 16:21:33.637 INFO  (qtp19923290-11) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1496161205060} hits=1 status=0 QTime=7
+2017-05-30 16:22:22.520 INFO  (qtp19923290-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:22.539 INFO  (qtp19923290-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=20
+2017-05-30 16:22:22.565 INFO  (qtp19923290-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=19
+2017-05-30 16:22:23.898 INFO  (qtp19923290-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:23.915 INFO  (qtp19923290-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=14
+2017-05-30 16:22:23.918 INFO  (qtp19923290-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1496161343893&since=0} status=0 QTime=4
+2017-05-30 16:22:25.994 INFO  (qtp19923290-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:26.004 INFO  (qtp19923290-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1496160783131} status=0 QTime=5
+2017-05-30 16:22:26.016 INFO  (qtp19923290-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=18
+2017-05-30 16:22:26.068 INFO  (qtp19923290-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:26.081 INFO  (qtp19923290-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1496160783131} status=0 QTime=3
+2017-05-30 16:22:26.089 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=16
+2017-05-30 16:22:27.799 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=1
+2017-05-30 16:22:27.826 INFO  (qtp19923290-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/threads params={wt=json&_=1496161347794} status=0 QTime=9
+2017-05-30 16:22:27.829 INFO  (qtp19923290-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=21
+2017-05-30 16:22:28.750 INFO  (qtp19923290-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=1
+2017-05-30 16:22:28.765 INFO  (qtp19923290-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={wt=json&_=1496160788101} status=0 QTime=0
+2017-05-30 16:22:28.778 INFO  (qtp19923290-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=20
+2017-05-30 16:22:31.007 INFO  (qtp19923290-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:31.013 INFO  (qtp19923290-20) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1496160797940} status=0 QTime=0
+2017-05-30 16:22:31.023 INFO  (qtp19923290-20) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/replication params={wt=json&command=details&_=1496160797940} status=0 QTime=5
+2017-05-30 16:22:31.027 INFO  (qtp19923290-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=15
+2017-05-30 16:22:31.040 INFO  (qtp19923290-14) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1496160783132&ts=1496160783132} status=503 QTime=0
+2017-05-30 16:22:31.045 INFO  (qtp19923290-11) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/system params={wt=json&_=1496160797940} status=0 QTime=13
+2017-05-30 16:22:33.527 INFO  (qtp19923290-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:33.542 INFO  (qtp19923290-16) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1496160797940} status=0 QTime=3
+2017-05-30 16:22:33.555 INFO  (qtp19923290-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=20
+2017-05-30 16:22:39.100 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:39.115 INFO  (qtp19923290-18) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1496161359085} status=0 QTime=1
+2017-05-30 16:22:39.131 INFO  (qtp19923290-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=24
+2017-05-30 16:22:39.150 INFO  (qtp19923290-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:39.153 INFO  (qtp19923290-16) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1496161359085} status=0 QTime=0
+2017-05-30 16:22:39.171 INFO  (qtp19923290-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=20
+2017-05-30 16:22:39.879 INFO  (qtp19923290-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:39.884 INFO  (qtp19923290-16) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1496160797940} status=0 QTime=2
+2017-05-30 16:22:39.902 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=22
+2017-05-30 16:22:41.508 INFO  (qtp19923290-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:41.540 INFO  (qtp19923290-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=20
+2017-05-30 16:22:41.549 INFO  (qtp19923290-20) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/file params={wt=json&_=1496161361500} status=0 QTime=10
+2017-05-30 16:22:41.618 INFO  (qtp19923290-11) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/file params={file=lang&wt=json&_=1496161361500} status=0 QTime=45
+2017-05-30 16:22:42.691 INFO  (qtp19923290-14) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/ping params={wt=json&_=1496160783132&ts=1496160783132} hits=1 status=0 QTime=2
+2017-05-30 16:22:42.691 INFO  (qtp19923290-14) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/ping params={wt=json&_=1496160783132&ts=1496160783132} status=0 QTime=3
+2017-05-30 16:22:43.737 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:43.766 INFO  (qtp19923290-20) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/mbeans params={stats=true&wt=json&_=1496161359085} status=0 QTime=16
+2017-05-30 16:22:43.769 INFO  (qtp19923290-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=27
+2017-05-30 16:22:44.862 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:44.875 INFO  (qtp19923290-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=11
+2017-05-30 16:22:46.549 INFO  (qtp19923290-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:46.564 INFO  (qtp19923290-17) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/replication params={wt=json&command=details&_=1496160797940} status=0 QTime=3
+2017-05-30 16:22:46.582 INFO  (qtp19923290-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=18
+2017-05-30 16:22:47.904 INFO  (qtp19923290-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:47.925 INFO  (qtp19923290-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=16
+2017-05-30 16:22:48.600 INFO  (qtp19923290-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:48.617 INFO  (qtp19923290-16) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/config params={wt=json&_=1496160805254} status=0 QTime=1
+2017-05-30 16:22:48.626 INFO  (qtp19923290-12) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1496160797940} status=0 QTime=2
+2017-05-30 16:22:48.629 INFO  (qtp19923290-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=24
+2017-05-30 16:22:48.686 INFO  (qtp19923290-17) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1496160797940} status=0 QTime=6
+2017-05-30 16:22:50.383 INFO  (qtp19923290-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:50.397 INFO  (qtp19923290-18) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/segments params={wt=json&_=1496161370374} status=0 QTime=8
+2017-05-30 16:22:50.411 INFO  (qtp19923290-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=25
+2017-05-30 16:22:51.398 INFO  (qtp19923290-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:51.418 INFO  (qtp19923290-16) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/mbeans params={stats=true&wt=json&_=1496161359085} status=0 QTime=13
+2017-05-30 16:22:51.427 INFO  (qtp19923290-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=14
+2017-05-30 16:22:52.221 INFO  (qtp19923290-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:22:52.242 INFO  (qtp19923290-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=19
+2017-05-30 16:23:04.195 INFO  (qtp19923290-11) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/select params={q=*:*&qt=subject&indent=on&wt=json&_=1496161205060} hits=1 status=0 QTime=0
+2017-05-30 16:23:17.105 INFO  (qtp19923290-17) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/select params={q=*:*&qt=test&indent=on&wt=json&_=1496161205060} hits=1 status=0 QTime=0
+2017-05-30 16:23:23.707 INFO  (qtp19923290-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:23:23.726 INFO  (qtp19923290-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=21
+2017-05-30 16:23:30.426 INFO  (qtp19923290-20) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/select params={q=*:*&qt=body&indent=on&wt=json&_=1496161205060} hits=1 status=0 QTime=0
+2017-05-30 16:23:42.443 INFO  (qtp19923290-19) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/select params={q=*:*&qt=1613&indent=on&wt=json&_=1496161205060} hits=1 status=0 QTime=0
+2017-05-30 16:23:58.302 INFO  (qtp19923290-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:23:58.325 INFO  (qtp19923290-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=16
+2017-05-30 16:23:58.328 INFO  (qtp19923290-20) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/config params={wt=json&_=1496160805254} status=0 QTime=0
+2017-05-30 16:23:58.343 INFO  (qtp19923290-14) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1496160797940} status=0 QTime=2
+2017-05-30 16:23:58.397 INFO  (qtp19923290-16) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1496160797940} status=0 QTime=1
+2017-05-30 16:24:00.205 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:24:00.221 INFO  (qtp19923290-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=14
+2017-05-30 16:24:10.068 INFO  (qtp19923290-12) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/browse params={} hits=1 status=0 QTime=35
+2017-05-30 16:24:10.068 INFO  (qtp19923290-12) [   x:test] o.a.s.c.PluginBag Going to create a new queryResponseWriter with {type = queryResponseWriter,name = velocity,class = solr.VelocityResponseWriter,attributes = {startup=lazy, name=velocity, class=solr.VelocityResponseWriter},args = {template.base.dir=,solr.resource.loader.enabled=true,params.resource.loader.enabled=false}} 
+2017-05-30 16:24:16.787 INFO  (qtp19923290-14) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/browse params={} hits=1 status=0 QTime=0
+2017-05-30 16:24:21.441 INFO  (qtp19923290-11) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/browse params={q=test} hits=0 status=0 QTime=15
+2017-05-30 16:24:25.438 INFO  (qtp19923290-14) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/browse params={q=subject} hits=0 status=0 QTime=1
+2017-05-30 16:24:26.756 INFO  (qtp19923290-12) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/browse params={q=subject} hits=0 status=0 QTime=0
+2017-05-30 16:24:31.067 INFO  (qtp19923290-18) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/browse params={q=body} hits=0 status=0 QTime=1
+2017-05-30 16:24:32.710 INFO  (qtp19923290-19) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/browse params={q=test} hits=0 status=0 QTime=1
+2017-05-30 16:24:36.773 INFO  (qtp19923290-11) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1496161205060} hits=1 status=0 QTime=0
+2017-05-30 16:24:45.246 INFO  (qtp19923290-16) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/browse params={q=subject_test200111613} hits=1 status=0 QTime=2
+2017-05-30 16:24:56.410 INFO  (qtp19923290-11) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/browse params={q=test200111613} hits=0 status=0 QTime=1
+2017-05-30 16:27:37.170 INFO  (qtp19923290-19) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1496161205060} hits=1 status=0 QTime=0
+2017-05-30 16:27:41.260 INFO  (qtp19923290-14) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1496161205060} hits=1 status=0 QTime=0
+2017-05-30 16:27:42.409 INFO  (qtp19923290-20) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1496161205060} hits=1 status=0 QTime=0
+2017-05-30 16:27:45.270 INFO  (qtp19923290-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:27:45.297 INFO  (qtp19923290-16) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/mbeans params={stats=true&wt=json&_=1496161359085} status=0 QTime=13
+2017-05-30 16:27:45.364 INFO  (qtp19923290-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=53
+2017-05-30 16:27:45.894 INFO  (qtp19923290-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:27:45.913 INFO  (qtp19923290-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=17
+2017-05-30 16:27:47.688 INFO  (qtp19923290-17) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1496161205060} hits=1 status=0 QTime=0
+2017-05-30 16:28:44.141 INFO  (qtp19923290-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=11
+2017-05-30 16:28:44.142 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1496161343893&since=0} status=0 QTime=0
+2017-05-30 16:28:44.148 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:28:47.836 INFO  (qtp19923290-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:28:47.860 INFO  (qtp19923290-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1496161343893} status=0 QTime=5
+2017-05-30 16:28:47.865 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=21
+2017-05-30 16:28:49.592 INFO  (qtp19923290-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:28:49.594 INFO  (qtp19923290-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1496161343893&since=0} status=0 QTime=0
+2017-05-30 16:28:49.607 INFO  (qtp19923290-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=14
+2017-05-30 16:28:50.818 INFO  (qtp19923290-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:28:50.831 INFO  (qtp19923290-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1496160783131} status=0 QTime=9
+2017-05-30 16:28:50.839 INFO  (qtp19923290-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=19
+2017-05-30 16:28:50.870 INFO  (qtp19923290-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:28:50.883 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1496160783131} status=0 QTime=3
+2017-05-30 16:28:50.892 INFO  (qtp19923290-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=16
+2017-05-30 16:28:53.059 INFO  (qtp19923290-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:28:53.077 INFO  (qtp19923290-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/threads params={wt=json&_=1496161347794} status=0 QTime=6
+2017-05-30 16:28:53.097 INFO  (qtp19923290-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=27
+2017-05-30 16:30:56.080 INFO  (qtp19923290-16) [   x:test] o.a.s.u.p.LogUpdateProcessorFactory [test]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[193ccbdb-a5fe-4987-8341-92625f44ca95 (1568839414397796352)]} 0 3
+2017-05-30 16:30:56.099 INFO  (qtp19923290-19) [   x:test] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-05-30 16:30:56.099 INFO  (qtp19923290-19) [   x:test] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@12d8198
+2017-05-30 16:30:56.183 INFO  (qtp19923290-19) [   x:test] o.a.s.s.SolrIndexSearcher Opening [Searcher@188071b[test] main]
+2017-05-30 16:30:56.184 INFO  (searcherExecutor-7-thread-1-processing-x:test) [   x:test] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@188071b[test] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.1):C1) Uninverting(_1(6.5.1):C1)))}
+2017-05-30 16:30:56.184 INFO  (searcherExecutor-7-thread-1-processing-x:test) [   x:test] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-05-30 16:30:56.186 INFO  (searcherExecutor-7-thread-1-processing-x:test) [   x:test] o.a.s.c.SolrCore [test] Registered new searcher Searcher@188071b[test] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.1):C1) Uninverting(_1(6.5.1):C1)))}
+2017-05-30 16:30:56.187 INFO  (qtp19923290-19) [   x:test] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-05-30 16:30:56.187 INFO  (qtp19923290-19) [   x:test] o.a.s.u.p.LogUpdateProcessorFactory [test]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 88
+2017-05-30 16:31:01.475 INFO  (qtp19923290-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:31:01.481 INFO  (qtp19923290-11) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1496160797940} status=0 QTime=0
+2017-05-30 16:31:01.483 INFO  (qtp19923290-13) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1496160783132&ts=1496160783132} status=503 QTime=0
+2017-05-30 16:31:01.489 INFO  (qtp19923290-20) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/replication params={wt=json&command=details&_=1496160797940} status=0 QTime=5
+2017-05-30 16:31:01.538 INFO  (qtp19923290-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=70
+2017-05-30 16:31:01.552 INFO  (qtp19923290-11) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/admin/system params={wt=json&_=1496160797940} status=0 QTime=65
+2017-05-30 16:31:04.086 INFO  (qtp19923290-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1496160783131} status=0 QTime=0
+2017-05-30 16:31:04.108 INFO  (qtp19923290-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1496160783132} status=0 QTime=17
+2017-05-30 16:31:05.697 INFO  (qtp19923290-17) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1496161205060} hits=2 status=0 QTime=0
+2017-05-30 16:31:13.747 INFO  (qtp19923290-14) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/browse params={q=test} hits=1 status=0 QTime=1
+2017-05-30 16:31:19.993 INFO  (qtp19923290-20) [   x:test] o.a.s.c.S.Request [test]  webapp=/solr path=/browse params={q=subject} hits=1 status=0 QTime=3
